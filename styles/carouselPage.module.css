@@ -1,0 +1,35 @@
+.home {
+    font-family:'Courier New', Courier, monospace;
+    color:var(--light-pink);
+    text-decoration:none;
+    font-weight:500;
+    text-transform:lowercase;
+    display:flex;
+    justify-content:center;
+    margin-top:2em;
+}
+
+.home:hover {
+    color:var(--maroon);
+    text-decoration:underline;
+}
+
+.links {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+.carousel {
+    display:flex;
+    justify-content:center;
+    margin-top:5em;
+}
+
+.title {
+    font-family:'Courier New', Courier, monospace;
+    display:flex;
+    justify-content:center;
+    font-weight:800;
+    font-size:20px;
+    padding-top:5em;
+}

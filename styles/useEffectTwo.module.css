@@ -1,0 +1,39 @@
+.title {
+    font-family:'Courier New', Courier, monospace;
+    display:flex;
+    justify-content:center;
+    font-weight:800;
+    font-size:20px;
+    padding-top:5em;
+}
+
+.home {
+    font-family:'Courier New', Courier, monospace;
+    color:var(--light-pink);
+    text-decoration:none;
+    font-weight:500;
+    text-transform:lowercase;
+    display:flex;
+    justify-content:center;
+    margin-top:2em;
+}
+
+.home:hover {
+    color:var(--maroon);
+    text-decoration:underline;
+}
+
+
+.number {
+    font-family:'Courier New', Courier, monospace;
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    color: var(--red);
+    margin-top:2em;
+}
+
+.links {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}

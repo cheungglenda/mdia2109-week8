@@ -1,0 +1,62 @@
+.links {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+.home {
+    font-family:'Courier New', Courier, monospace;
+    color:var(--light-pink);
+    text-decoration:none;
+    font-weight:500;
+    text-transform:lowercase;
+    display:flex;
+    justify-content:center;
+    margin-top:2em;
+}
+
+.home:hover {
+    color:var(--maroon);
+    text-decoration:underline;
+}
+
+.title {
+    font-family:'Courier New', Courier, monospace;
+    display:flex;
+    justify-content:center;
+    font-weight:800;
+    font-size:20px;
+    padding-top:5em;
+}
+
+.button {
+    border: none;
+    padding:1em;
+    border-radius:45px;
+    font-family:'Courier New', Courier, monospace;
+    cursor:pointer;
+    font-weight:800;
+    font-size:25px;
+    background-color:var(--super-pink);
+    color:var(--white);
+    box-shadow:5px 5px rgba(0,0,0,0.2)
+}
+
+.button:hover{
+    background-color:var(--maroon);
+    color:var(--white);
+    box-shadow:5px 10px rgba(0,0,0,0.4);
+}
+
+.buttonArea {
+    display:flex;
+    justify-content:center;
+    margin-top:2em;
+}
+
+.number {
+    display:flex;
+    justify-content:center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:40px;
+    margin-top:2em;
+}
